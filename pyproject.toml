@@ -1,0 +1,23 @@
+[project]
+name = "evenza"
+version = "1.0.0"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi==0.110.1",
+  "motor==3.3.1",
+  "pymongo==4.6.3",
+  "python-dotenv==1.2.3",
+  "bcrypt==4.1.3",
+  "PyJWT==2.14.0",
+  "requests==2.34.2",
+  "email-validator==2.3.0",
+]
+
+[tool.vercel]
+entrypoint = "backend.server:app"
+
+[tool.vercel.scripts]
+build = "npm ci --prefix frontend && npm run build --prefix frontend"
+
+[tool.vercel.fastapi.static]
+cdn = true

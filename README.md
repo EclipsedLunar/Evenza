@@ -35,3 +35,16 @@ Open the Vite URL shown in the terminal. The development server proxies `/api` r
 ## Configuration
 
 Backend settings are documented in `backend/.env.example`. Optional integrations such as the language model and Razorpay require their own credentials. Never commit `.env` files or production secrets.
+
+## Deploy on Vercel
+
+Import this repository into Vercel with the project root set to the repository root. The Vercel FastAPI build configuration builds the Vite app and serves it from the same deployment as the `/api` routes.
+
+Before deploying, add these environment variables to the Vercel project for each target environment:
+
+- `MONGO_URL`: a reachable MongoDB connection string (Atlas or another hosted MongoDB; `localhost` will not work on Vercel)
+- `DB_NAME`: the database name
+- `JWT_SECRET`: a long, unique secret
+- `CORS_ORIGINS`: comma-separated deployed origins if cross-origin clients are used
+
+The backend seeds its event catalogue on first startup. Do not set `VITE_BACKEND_URL` for a same-domain deployment; the frontend calls `/api` on its own origin. Optional AI and payment integrations need their respective credentials as well.
