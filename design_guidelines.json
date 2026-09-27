@@ -1,0 +1,123 @@
+{
+  "project_name": "EVENZA",
+  "brand_identity": {
+    "tagline": "Where opportunities find you.",
+    "eyebrow": "DISCOVER. PARTICIPATE. ACHIEVE.",
+    "mission": "Centralising competitions, events, communities, and skill-building opportunities for K-12 and college students across Maharashtra, India.",
+    "aesthetic_tone": "Dark-themed, premium youth-tech, classy, structured, energetic, trustworthy, high-density, anti-corporate SaaS slop."
+  },
+  "colors": {
+    "theme": "dark",
+    "primary_background": "#0B152E",
+    "surface_card": "#111C38",
+    "surface_card_hover": "#162244",
+    "surface_elevated": "#1E2C52",
+    "border_subtle": "#22335C",
+    "border_highlight": "#334778",
+    "accent_primary": "#FFC928",
+    "accent_hover": "#E5B11B",
+    "accent_soft_bg": "rgba(255, 201, 40, 0.12)",
+    "accent_border": "rgba(255, 201, 40, 0.35)",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#94A3B8",
+    "text_muted": "#64748B",
+    "success": "#10B981",
+    "warning": "#F59E0B",
+    "error": "#EF4444",
+    "virtual_badge": "#8B5CF6",
+    "physical_badge": "#10B981"
+  },
+  "typography": {
+    "font_pairing": {
+      "headings": "Cabinet Grotesk, Outfit, sans-serif",
+      "body": "Plus Jakarta Sans, Inter, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "scale": {
+      "hero_heading": "text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight leading-tight",
+      "section_heading": "text-2xl sm:text-3xl font-bold tracking-tight",
+      "card_heading": "text-lg sm:text-xl font-semibold",
+      "subtext": "text-sm text-slate-400",
+      "label": "text-xs font-semibold uppercase tracking-wider text-amber-400"
+    }
+  },
+  "spacing_and_layout": {
+    "zoom_level": "Optimized high-density 90-95% visual zoom (compact padding, tighter gap scales to prevent excessive whitespace)",
+    "max_container": "max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8",
+    "card_padding": "p-4 sm:p-5",
+    "section_spacing": "py-10 sm:py-14",
+    "grid_gap": "gap-4 sm:gap-5"
+  },
+  "key_features_and_components": {
+    "location_selector": {
+      "cities": ["All Maharashtra", "Mumbai", "Pune", "Nagpur", "Nashik", "Thane", "Chhatrapati Sambhajinagar", "Navi Mumbai", "Kolhapur", "Solapur"],
+      "component_path": "/src/components/location/LocationSelector.js"
+    },
+    "notifications_center": {
+      "badge_count": 3,
+      "component_path": "/src/components/notifications/NotificationCenter.js"
+    },
+    "category_tiles": [
+      {"id": "pickleball", "name": "Pickleball", "icon": "TennisBall", "color": "#FFC928"},
+      {"id": "padel", "name": "Padel", "icon": "Dumbbell", "color": "#10B981"},
+      {"id": "muns", "name": "MUNs & Youth Parliament", "icon": "Landmark", "color": "#3B82F6"},
+      {"id": "esports", "name": "Esports & Gaming", "icon": "Gamepad2", "color": "#8B5CF6"},
+      {"id": "robotics", "name": "Robotics", "icon": "Cpu", "color": "#EC4899"},
+      {"id": "ai_challenges", "name": "AI Challenges", "icon": "Sparkles", "color": "#FFC928"},
+      {"id": "game_jams", "name": "Game Jams", "icon": "Code2", "color": "#06B6D4"},
+      {"id": "filmmaking", "name": "Filmmaking", "icon": "Film", "color": "#F97316"},
+      {"id": "anime", "name": "Anime / Manga Art", "icon": "Palette", "color": "#A855F7"},
+      {"id": "startup_pitch", "name": "Startup Pitch", "icon": "Rocket", "color": "#10B981"},
+      {"id": "comedy", "name": "Stand-up Comedy", "icon": "Mic", "color": "#F43F5E"},
+      {"id": "quiz", "name": "Quizzes & Trivia", "icon": "Brain", "color": "#3B82F6"}
+    ],
+    "ai_discovery_chat": {
+      "name": "EVENZA AI Guide",
+      "prompts": [
+        "Find robotics competitions for 11th graders in Pune",
+        "Upcoming esports tournaments with cash prizes this weekend",
+        "Virtual MUNs open for registration under ₹500",
+        "High school startup pitch fests in Mumbai"
+      ]
+    },
+    "virtual_vs_physical_bifurcation": {
+      "modes": ["All Modes", "Virtual / Online", "Physical / In-Person"],
+      "badges": {
+        "virtual": "bg-purple-950/80 text-purple-300 border-purple-700/50",
+        "physical": "bg-emerald-950/80 text-emerald-300 border-emerald-700/50"
+      }
+    },
+    "checkout_tax_calculator": {
+      "maharashtra_state_code": "27",
+      "cgst_rate": 0.09,
+      "sgst_rate": 0.09,
+      "igst_rate": 0.18,
+      "breakdown": ["Base Fee", "CGST (9%)", "SGST (9%)", "Platform Convenience Fee", "Total Payable"]
+    },
+    "ecosystems": {
+      "participant": ["Recommended", "Saved Opportunities", "My Registrations", "Upcoming Timeline", "Achievements & Certificates", "Referral Hub"],
+      "organiser": ["Overview Analytics", "Host New Opportunity", "Managed Events Roster", "Registrations & Payment Status", "Send Reminder Broadcasts"]
+    }
+  },
+  "image_urls": {
+    "esports": "https://images.unsplash.com/photo-1511512578047-dfb367046420?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDJ8MHwxfHNlYXJjaHw0fHxlc3BvcnRzJTIwZ2FtaW5nJTIwdG91cm5hbWVudCUyMG5lb24lMjBkYXJrfGVufDB8fHx8MTc5MDQ4ODk2NXww&ixlib=rb-4.1.0&q=85",
+    "startup_pitch": "https://images.unsplash.com/photo-1576085898323-218337e3e43c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwxfHxzdGFydHVwJTIwcGl0Y2glMjBoYWNrYXRob24lMjBwcmVzZW50YXRpb24lMjBzdHVkZW50c3xlbnwwfHx8fDE3OTA0ODg5NjV8MA&ixlib=rb-4.1.0&q=85",
+    "robotics": "https://images.unsplash.com/photo-1742767069929-0c663150b164?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA3MDB8MHwxfHNlYXJjaHwzfHxyb2JvdGljcyUyMEFJJTIwY29tcGV0aXRpb24lMjBzdHVkZW50cyUyMHRlY2h8ZW58MHx8fHwxNzkwNDg4OTY1fDA&ixlib=rb-4.1.0&q=85",
+    "hackathon": "https://images.unsplash.com/photo-1756273343749-63f7d6ea0cda?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxOTF8MHwxfHNlYXJjaHwzfHxzdGFydHVwJTIwcGl0Y2glMjBoYWNrYXRob24lMjBwcmVzZW50YXRpb24lMjBzdHVkZW50c3xlbnwwfHx8fDE3OTA0ODg5NjV8MA&ixlib=rb-4.1.0&q=85"
+  },
+  "testing_and_accessibility": {
+    "test_ids": "Every interactive element (buttons, filters, search inputs, modal triggers, cards, table rows, checkout buttons, role switchers) MUST contain data-testid attributes in kebab-case.",
+    "keyboard_nav": "Full tab index support, clear focus ring with amber border glow on focus.",
+    "contrast_check": "High contrast text (#FFFFFF and #FFC928) against dark navy backdrop (#0B152E / #111C38) exceeding 7:1 WCAG AAA standards."
+  },
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": {
+    "1": "Strictly follow the navy #0B152E + yellow #FFC928 + white #FFFFFF dark theme.",
+    "2": "Avoid full transparency header or dropdown backgrounds; always use backdrop blur with semi-opaque background like bg-[#0B152E]/90.",
+    "3": "Keep padding and gaps dense and compact (zoomed-out look: max-w-[1400px], gap-4, p-4, text-sm body).",
+    "4": "Ensure every button, link, tab, input, and card has a data-testid attribute.",
+    "5": "Do not wrap design_guidelines.json output in markdown codeblocks when saved to /app/design_guidelines.json."
+  }
+},
+  "overwrite": true,
+  "path": "/app/design_guidelines.json"
+}
